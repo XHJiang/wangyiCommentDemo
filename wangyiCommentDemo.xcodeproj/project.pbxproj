@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9718DAA8372395E36F23F910 /* Pods_wangyiCommentDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CBF7B00E1BAA02AA75B14A /* Pods_wangyiCommentDemoTests.framework */; };
+		996092BC3FE5AFF6C27EEE9D /* Pods_wangyiCommentDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF13FBC57273059DEFA970FD /* Pods_wangyiCommentDemoUITests.framework */; };
+		AAAE067F1EA4BFC2007D5C65 /* CommentFootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE067E1EA4BFC2007D5C65 /* CommentFootTableViewCell.swift */; };
+		AAAE06811EA5B81B007D5C65 /* CommentHeadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE06801EA5B81B007D5C65 /* CommentHeadTableViewCell.swift */; };
+		AAAE06831EA5BB58007D5C65 /* CommentCommen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE06821EA5BB58007D5C65 /* CommentCommen.swift */; };
+		AAAE06851EA5EB3E007D5C65 /* CommentTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE06841EA5EB3E007D5C65 /* CommentTitleTableViewCell.swift */; };
+		AAAE06871EA60586007D5C65 /* CommentContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE06861EA60586007D5C65 /* CommentContentTableViewCell.swift */; };
+		AAAE06891EA6068B007D5C65 /* CommentMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE06881EA6068B007D5C65 /* CommentMoreTableViewCell.swift */; };
+		AAAE068B1EA6200A007D5C65 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE068A1EA6200A007D5C65 /* CommentModel.swift */; };
+		AAAE068D1EA62451007D5C65 /* CommentAllModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE068C1EA62451007D5C65 /* CommentAllModel.swift */; };
+		AAAE068F1EA7461B007D5C65 /* CommentLineBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE068E1EA7461B007D5C65 /* CommentLineBackView.swift */; };
+		AAFE77271EA49E540062B3A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE77261EA49E540062B3A0 /* AppDelegate.swift */; };
+		AAFE77291EA49E540062B3A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE77281EA49E540062B3A0 /* ViewController.swift */; };
+		AAFE772C1EA49E540062B3A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFE772A1EA49E540062B3A0 /* Main.storyboard */; };
+		AAFE772E1EA49E540062B3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFE772D1EA49E540062B3A0 /* Assets.xcassets */; };
+		AAFE77311EA49E540062B3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFE772F1EA49E540062B3A0 /* LaunchScreen.storyboard */; };
+		AAFE773C1EA49E550062B3A0 /* wangyiCommentDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE773B1EA49E550062B3A0 /* wangyiCommentDemoTests.swift */; };
+		AAFE77471EA49E550062B3A0 /* wangyiCommentDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE77461EA49E550062B3A0 /* wangyiCommentDemoUITests.swift */; };
+		CB8C31265B120C4472004B30 /* Pods_wangyiCommentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72330C41EDF5A41C231DB3BE /* Pods_wangyiCommentDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFE77381EA49E550062B3A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFE771B1EA49E540062B3A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFE77221EA49E540062B3A0;
+			remoteInfo = wangyiCommentDemo;
+		};
+		AAFE77431EA49E550062B3A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFE771B1EA49E540062B3A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFE77221EA49E540062B3A0;
+			remoteInfo = wangyiCommentDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25E0F5A99398BAE45AE9893D /* Pods-wangyiCommentDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyiCommentDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangyiCommentDemoUITests/Pods-wangyiCommentDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AD03FD75BB79647C74956DD /* Pods-wangyiCommentDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyiCommentDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangyiCommentDemoUITests/Pods-wangyiCommentDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		625426A6561C84306FAF825C /* Pods-wangyiCommentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyiCommentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangyiCommentDemo/Pods-wangyiCommentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		64D5C96046A255A99792D56E /* Pods-wangyiCommentDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyiCommentDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangyiCommentDemoTests/Pods-wangyiCommentDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		72330C41EDF5A41C231DB3BE /* Pods_wangyiCommentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wangyiCommentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CBF7B00E1BAA02AA75B14A /* Pods_wangyiCommentDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wangyiCommentDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA22ED5AB45EF61290AF333A /* Pods-wangyiCommentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyiCommentDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangyiCommentDemo/Pods-wangyiCommentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AAAE067E1EA4BFC2007D5C65 /* CommentFootTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentFootTableViewCell.swift; sourceTree = "<group>"; };
+		AAAE06801EA5B81B007D5C65 /* CommentHeadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentHeadTableViewCell.swift; sourceTree = "<group>"; };
+		AAAE06821EA5BB58007D5C65 /* CommentCommen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCommen.swift; sourceTree = "<group>"; };
+		AAAE06841EA5EB3E007D5C65 /* CommentTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTitleTableViewCell.swift; sourceTree = "<group>"; };
+		AAAE06861EA60586007D5C65 /* CommentContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentContentTableViewCell.swift; sourceTree = "<group>"; };
+		AAAE06881EA6068B007D5C65 /* CommentMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentMoreTableViewCell.swift; sourceTree = "<group>"; };
+		AAAE068A1EA6200A007D5C65 /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		AAAE068C1EA62451007D5C65 /* CommentAllModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentAllModel.swift; sourceTree = "<group>"; };
+		AAAE068E1EA7461B007D5C65 /* CommentLineBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentLineBackView.swift; sourceTree = "<group>"; };
+		AAFE77231EA49E540062B3A0 /* wangyiCommentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiCommentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFE77261EA49E540062B3A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFE77281EA49E540062B3A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFE772B1EA49E540062B3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFE772D1EA49E540062B3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFE77301EA49E540062B3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFE77321EA49E540062B3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFE77371EA49E550062B3A0 /* wangyiCommentDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiCommentDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFE773B1EA49E550062B3A0 /* wangyiCommentDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wangyiCommentDemoTests.swift; sourceTree = "<group>"; };
+		AAFE773D1EA49E550062B3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFE77421EA49E550062B3A0 /* wangyiCommentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiCommentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFE77461EA49E550062B3A0 /* wangyiCommentDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wangyiCommentDemoUITests.swift; sourceTree = "<group>"; };
+		AAFE77481EA49E550062B3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5C83CEA4E039C27CA50009 /* Pods-wangyiCommentDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangyiCommentDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangyiCommentDemoTests/Pods-wangyiCommentDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF13FBC57273059DEFA970FD /* Pods_wangyiCommentDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wangyiCommentDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFE77201EA49E540062B3A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8C31265B120C4472004B30 /* Pods_wangyiCommentDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFE77341EA49E550062B3A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9718DAA8372395E36F23F910 /* Pods_wangyiCommentDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFE773F1EA49E550062B3A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996092BC3FE5AFF6C27EEE9D /* Pods_wangyiCommentDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFE771A1EA49E540062B3A0 = {
+			isa = PBXGroup;
+			children = (
+				AAFE77251EA49E540062B3A0 /* wangyiCommentDemo */,
+				AAFE773A1EA49E550062B3A0 /* wangyiCommentDemoTests */,
+				AAFE77451EA49E550062B3A0 /* wangyiCommentDemoUITests */,
+				AAFE77241EA49E540062B3A0 /* Products */,
+				CDBBF28446424381E14CA136 /* Pods */,
+				AEEE55452825BB1ADC2B64D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFE77241EA49E540062B3A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE77231EA49E540062B3A0 /* wangyiCommentDemo.app */,
+				AAFE77371EA49E550062B3A0 /* wangyiCommentDemoTests.xctest */,
+				AAFE77421EA49E550062B3A0 /* wangyiCommentDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFE77251EA49E540062B3A0 /* wangyiCommentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE77261EA49E540062B3A0 /* AppDelegate.swift */,
+				AAFE77281EA49E540062B3A0 /* ViewController.swift */,
+				AAAE068C1EA62451007D5C65 /* CommentAllModel.swift */,
+				AAAE068A1EA6200A007D5C65 /* CommentModel.swift */,
+				AAAE06821EA5BB58007D5C65 /* CommentCommen.swift */,
+				AAAE06841EA5EB3E007D5C65 /* CommentTitleTableViewCell.swift */,
+				AAAE06861EA60586007D5C65 /* CommentContentTableViewCell.swift */,
+				AAAE06801EA5B81B007D5C65 /* CommentHeadTableViewCell.swift */,
+				AAAE06881EA6068B007D5C65 /* CommentMoreTableViewCell.swift */,
+				AAAE067E1EA4BFC2007D5C65 /* CommentFootTableViewCell.swift */,
+				AAAE068E1EA7461B007D5C65 /* CommentLineBackView.swift */,
+				AAFE772A1EA49E540062B3A0 /* Main.storyboard */,
+				AAFE772D1EA49E540062B3A0 /* Assets.xcassets */,
+				AAFE772F1EA49E540062B3A0 /* LaunchScreen.storyboard */,
+				AAFE77321EA49E540062B3A0 /* Info.plist */,
+			);
+			path = wangyiCommentDemo;
+			sourceTree = "<group>";
+		};
+		AAFE773A1EA49E550062B3A0 /* wangyiCommentDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE773B1EA49E550062B3A0 /* wangyiCommentDemoTests.swift */,
+				AAFE773D1EA49E550062B3A0 /* Info.plist */,
+			);
+			path = wangyiCommentDemoTests;
+			sourceTree = "<group>";
+		};
+		AAFE77451EA49E550062B3A0 /* wangyiCommentDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE77461EA49E550062B3A0 /* wangyiCommentDemoUITests.swift */,
+				AAFE77481EA49E550062B3A0 /* Info.plist */,
+			);
+			path = wangyiCommentDemoUITests;
+			sourceTree = "<group>";
+		};
+		AEEE55452825BB1ADC2B64D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72330C41EDF5A41C231DB3BE /* Pods_wangyiCommentDemo.framework */,
+				A3CBF7B00E1BAA02AA75B14A /* Pods_wangyiCommentDemoTests.framework */,
+				FF13FBC57273059DEFA970FD /* Pods_wangyiCommentDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDBBF28446424381E14CA136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				625426A6561C84306FAF825C /* Pods-wangyiCommentDemo.debug.xcconfig */,
+				AA22ED5AB45EF61290AF333A /* Pods-wangyiCommentDemo.release.xcconfig */,
+				EE5C83CEA4E039C27CA50009 /* Pods-wangyiCommentDemoTests.debug.xcconfig */,
+				64D5C96046A255A99792D56E /* Pods-wangyiCommentDemoTests.release.xcconfig */,
+				3AD03FD75BB79647C74956DD /* Pods-wangyiCommentDemoUITests.debug.xcconfig */,
+				25E0F5A99398BAE45AE9893D /* Pods-wangyiCommentDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFE77221EA49E540062B3A0 /* wangyiCommentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFE774B1EA49E550062B3A0 /* Build configuration list for PBXNativeTarget "wangyiCommentDemo" */;
+			buildPhases = (
+				9FB047BAAE290AB6ADA3082D /* [CP] Check Pods Manifest.lock */,
+				AAFE771F1EA49E540062B3A0 /* Sources */,
+				AAFE77201EA49E540062B3A0 /* Frameworks */,
+				AAFE77211EA49E540062B3A0 /* Resources */,
+				6A39A2DA119E9B274880536A /* [CP] Embed Pods Frameworks */,
+				2C19425A8717910981968D23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wangyiCommentDemo;
+			productName = wangyiCommentDemo;
+			productReference = AAFE77231EA49E540062B3A0 /* wangyiCommentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFE77361EA49E550062B3A0 /* wangyiCommentDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFE774E1EA49E550062B3A0 /* Build configuration list for PBXNativeTarget "wangyiCommentDemoTests" */;
+			buildPhases = (
+				90A8D9166E15CC42AA10FB9C /* [CP] Check Pods Manifest.lock */,
+				AAFE77331EA49E550062B3A0 /* Sources */,
+				AAFE77341EA49E550062B3A0 /* Frameworks */,
+				AAFE77351EA49E550062B3A0 /* Resources */,
+				2BA96117F17D7D982B1C3CD0 /* [CP] Embed Pods Frameworks */,
+				95BCC6715C5451C4675B6D04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFE77391EA49E550062B3A0 /* PBXTargetDependency */,
+			);
+			name = wangyiCommentDemoTests;
+			productName = wangyiCommentDemoTests;
+			productReference = AAFE77371EA49E550062B3A0 /* wangyiCommentDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFE77411EA49E550062B3A0 /* wangyiCommentDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFE77511EA49E550062B3A0 /* Build configuration list for PBXNativeTarget "wangyiCommentDemoUITests" */;
+			buildPhases = (
+				23DEA48086FA62F90CD950D0 /* [CP] Check Pods Manifest.lock */,
+				AAFE773E1EA49E550062B3A0 /* Sources */,
+				AAFE773F1EA49E550062B3A0 /* Frameworks */,
+				AAFE77401EA49E550062B3A0 /* Resources */,
+				BA348BF7C5CA208117E63FB7 /* [CP] Embed Pods Frameworks */,
+				BD3DEF30105C0E42518CD10C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFE77441EA49E550062B3A0 /* PBXTargetDependency */,
+			);
+			name = wangyiCommentDemoUITests;
+			productName = wangyiCommentDemoUITests;
+			productReference = AAFE77421EA49E550062B3A0 /* wangyiCommentDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFE771B1EA49E540062B3A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jiangxiaohan;
+				TargetAttributes = {
+					AAFE77221EA49E540062B3A0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					AAFE77361EA49E550062B3A0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAFE77221EA49E540062B3A0;
+					};
+					AAFE77411EA49E550062B3A0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAFE77221EA49E540062B3A0;
+					};
+				};
+			};
+			buildConfigurationList = AAFE771E1EA49E540062B3A0 /* Build configuration list for PBXProject "wangyiCommentDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFE771A1EA49E540062B3A0;
+			productRefGroup = AAFE77241EA49E540062B3A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFE77221EA49E540062B3A0 /* wangyiCommentDemo */,
+				AAFE77361EA49E550062B3A0 /* wangyiCommentDemoTests */,
+				AAFE77411EA49E550062B3A0 /* wangyiCommentDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFE77211EA49E540062B3A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFE77311EA49E540062B3A0 /* LaunchScreen.storyboard in Resources */,
+				AAFE772E1EA49E540062B3A0 /* Assets.xcassets in Resources */,
+				AAFE772C1EA49E540062B3A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFE77351EA49E550062B3A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFE77401EA49E550062B3A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23DEA48086FA62F90CD950D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BA96117F17D7D982B1C3CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyiCommentDemoTests/Pods-wangyiCommentDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C19425A8717910981968D23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyiCommentDemo/Pods-wangyiCommentDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A39A2DA119E9B274880536A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyiCommentDemo/Pods-wangyiCommentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A8D9166E15CC42AA10FB9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95BCC6715C5451C4675B6D04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyiCommentDemoTests/Pods-wangyiCommentDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB047BAAE290AB6ADA3082D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA348BF7C5CA208117E63FB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyiCommentDemoUITests/Pods-wangyiCommentDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3DEF30105C0E42518CD10C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangyiCommentDemoUITests/Pods-wangyiCommentDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFE771F1EA49E540062B3A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAE06831EA5BB58007D5C65 /* CommentCommen.swift in Sources */,
+				AAAE067F1EA4BFC2007D5C65 /* CommentFootTableViewCell.swift in Sources */,
+				AAAE06891EA6068B007D5C65 /* CommentMoreTableViewCell.swift in Sources */,
+				AAAE068F1EA7461B007D5C65 /* CommentLineBackView.swift in Sources */,
+				AAAE068D1EA62451007D5C65 /* CommentAllModel.swift in Sources */,
+				AAAE06851EA5EB3E007D5C65 /* CommentTitleTableViewCell.swift in Sources */,
+				AAAE06811EA5B81B007D5C65 /* CommentHeadTableViewCell.swift in Sources */,
+				AAFE77291EA49E540062B3A0 /* ViewController.swift in Sources */,
+				AAAE06871EA60586007D5C65 /* CommentContentTableViewCell.swift in Sources */,
+				AAAE068B1EA6200A007D5C65 /* CommentModel.swift in Sources */,
+				AAFE77271EA49E540062B3A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFE77331EA49E550062B3A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFE773C1EA49E550062B3A0 /* wangyiCommentDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFE773E1EA49E550062B3A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFE77471EA49E550062B3A0 /* wangyiCommentDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFE77391EA49E550062B3A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFE77221EA49E540062B3A0 /* wangyiCommentDemo */;
+			targetProxy = AAFE77381EA49E550062B3A0 /* PBXContainerItemProxy */;
+		};
+		AAFE77441EA49E550062B3A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFE77221EA49E540062B3A0 /* wangyiCommentDemo */;
+			targetProxy = AAFE77431EA49E550062B3A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFE772A1EA49E540062B3A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFE772B1EA49E540062B3A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFE772F1EA49E540062B3A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFE77301EA49E540062B3A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFE77491EA49E550062B3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFE774A1EA49E550062B3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFE774C1EA49E550062B3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625426A6561C84306FAF825C /* Pods-wangyiCommentDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wangyiCommentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiangxiaohan.wangyiCommentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAFE774D1EA49E550062B3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA22ED5AB45EF61290AF333A /* Pods-wangyiCommentDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wangyiCommentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiangxiaohan.wangyiCommentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAFE774F1EA49E550062B3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5C83CEA4E039C27CA50009 /* Pods-wangyiCommentDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wangyiCommentDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiangxiaohan.wangyiCommentDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wangyiCommentDemo.app/wangyiCommentDemo";
+			};
+			name = Debug;
+		};
+		AAFE77501EA49E550062B3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5C96046A255A99792D56E /* Pods-wangyiCommentDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wangyiCommentDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiangxiaohan.wangyiCommentDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wangyiCommentDemo.app/wangyiCommentDemo";
+			};
+			name = Release;
+		};
+		AAFE77521EA49E550062B3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD03FD75BB79647C74956DD /* Pods-wangyiCommentDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wangyiCommentDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiangxiaohan.wangyiCommentDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wangyiCommentDemo;
+			};
+			name = Debug;
+		};
+		AAFE77531EA49E550062B3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E0F5A99398BAE45AE9893D /* Pods-wangyiCommentDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wangyiCommentDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiangxiaohan.wangyiCommentDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wangyiCommentDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFE771E1EA49E540062B3A0 /* Build configuration list for PBXProject "wangyiCommentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFE77491EA49E550062B3A0 /* Debug */,
+				AAFE774A1EA49E550062B3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFE774B1EA49E550062B3A0 /* Build configuration list for PBXNativeTarget "wangyiCommentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFE774C1EA49E550062B3A0 /* Debug */,
+				AAFE774D1EA49E550062B3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFE774E1EA49E550062B3A0 /* Build configuration list for PBXNativeTarget "wangyiCommentDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFE774F1EA49E550062B3A0 /* Debug */,
+				AAFE77501EA49E550062B3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFE77511EA49E550062B3A0 /* Build configuration list for PBXNativeTarget "wangyiCommentDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFE77521EA49E550062B3A0 /* Debug */,
+				AAFE77531EA49E550062B3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFE771B1EA49E540062B3A0 /* Project object */;
+}

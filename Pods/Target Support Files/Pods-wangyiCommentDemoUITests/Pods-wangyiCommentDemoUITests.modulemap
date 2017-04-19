@@ -1,0 +1,6 @@
+framework module Pods_wangyiCommentDemoUITests {
+  umbrella header "Pods-wangyiCommentDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
